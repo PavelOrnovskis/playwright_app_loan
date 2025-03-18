@@ -34,12 +34,6 @@ test.describe("Loan app tests", async () => {
     await expect(image2.button).toBeVisible()
     await image2.button.click({force: true});
     await expect(smallLoanPage.applyButton.button).toBeInViewport();
-
-
-
-
-
-
   })
 })
 
